@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.contrib import admin
 from django.urls import path, include
 
@@ -6,7 +6,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('blog.urls')),
 ]
-=======
+
 """
 URL configuration for mysite project.
 
@@ -29,4 +29,3 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
->>>>>>> 3a0b0fe9bdc91be30a1146cd66c6285b7765e2b3
